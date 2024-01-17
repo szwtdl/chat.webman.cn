@@ -1,0 +1,120 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.container {
+    background: #F7F8FA;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.main-wrap {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.head-wrap {
+    background-color: white;
+    height: 64px;
+    margin-bottom: 10px;
+
+}
+
+.head-wrap .main-wrap .head-wrap-logo {
+}
+
+.head-wrap .main-wrap .head-wrap-logo img {
+    width: auto;
+    max-height: 100%;
+}
+
+.head-wrap .main-wrap .login-margin-phone {
+}
+
+.body-wrap {
+    flex: 1;
+    height: 0;
+}
+
+.body-wrap .main-wrap .login-wrap-ad {
+    max-width: 570px;
+    max-height: 500px;
+}
+
+.body-wrap .main-wrap .login-wrap-ad img {
+    width: 100%;
+    height: 100%;
+}
+
+.body-wrap .main-wrap .form-wrap {
+    width: 440px;
+    background-color: white;
+    border-radius: 4px;
+    padding: 50px 40px;
+    box-sizing: border-box;
+}
+
+.body-wrap .main-wrap .form-wrap .login-title {
+    font-size: 30px;
+    line-height: 36px;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.body-wrap .main-wrap .form-wrap .form-wrap-item {
+    width: 360px;
+    height: 48px;
+    background: white;
+    border: 1px solid #E6E6E6;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.body-wrap .main-wrap .form-wrap .form-wrap-item .input {
+    flex: 1;
+    width: 0;
+    line-height: 48px;
+    height: 48px;
+    background-color: white !important;
+    padding: 0 10px;
+    border: none;
+}
+
+.body-wrap .main-wrap .form-wrap .form-wrap-item i {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 5px;
+    color: #909399;
+}
+
+.body-wrap .form-wrap .layui-btn {
+    line-height: 48px;
+    height: 48px;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #105CFB;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.footer-wrap {
+    padding: 10px 20px;
+}

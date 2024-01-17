@@ -1,0 +1,32 @@
+name: Build and Package
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '7.2'
+
+      - name: Install Composer
+        run: |
+          composer install
+
+      - name: Build project
+        run: |
+          php -d phar.readonly=0 ./webman build:bin
+
+      - name: Upload binary artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: chat.bin
+          path: ${{ github.workspace }}/build/chat.bin

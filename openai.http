@@ -1,0 +1,18 @@
+### Chatbot
+POST https://api.openai.com/v1/chat/completions
+Content-Type: application/json
+Authorization: Bearer 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
+
+{
+  "model": "gpt-3.5-turbo",
+  "messages": [
+    {
+      "role": "system",
+      "content": "根据输入的描述，生成一份最合适的建表语句。不需要解释。sql用```sql ```包裹。建表语句要带comment注释，必要时加索引。"
+    },
+    {
+      "role": "user",
+      "content": "创建用户表"
+    }
+  ]
+}
