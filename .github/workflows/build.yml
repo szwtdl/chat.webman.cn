@@ -19,6 +19,8 @@ jobs:
 
       - name: Install Composer
         run: |
+          composer require webman/event
+          composer require -W illuminate/database illuminate/pagination illuminate/events symfony/var-dumper
           composer update
 
       - name: Build project
