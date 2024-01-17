@@ -30,7 +30,6 @@
     "webman/console": "^1.3",
     "webman/event": "^1.0",
     "yzh52521/easyhttp": "^1.1",
-    "phpoffice/phpspreadsheet": "^1.29",
     "psr/container": "^1.1.1",
     "webman/blade": "^1.5",
     "illuminate/database": "^10.41",
