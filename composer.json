@@ -31,11 +31,7 @@
     "webman/event": "^1.0",
     "yzh52521/easyhttp": "^1.1",
     "psr/container": "^1.1.1",
-    "webman/blade": "^1.5",
-    "illuminate/database": "^10.41",
-    "illuminate/pagination": "^10.41",
-    "illuminate/events": "^10.41",
-    "symfony/var-dumper": "^6.4"
+    "webman/blade": "^1.5"
   },
   "suggest": {
     "ext-event": "For better performance. "
