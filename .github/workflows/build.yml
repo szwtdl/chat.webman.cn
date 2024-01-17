@@ -19,7 +19,7 @@ jobs:
 
       - name: Install Composer
         run: |
-          composer update
+          composer update --with-all-dependencies
 
       - name: Build project
         run: |
